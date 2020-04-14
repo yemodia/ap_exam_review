@@ -39,7 +39,7 @@ public class Hailstone {
     public static boolean isLongSeq(int n) {
         /* to be implemented in part (b) */
         int found = hailstoneLength(n);
-        if (hailstoneLength(n) > n){
+        if (found > n){
             return true;
         }
         else
