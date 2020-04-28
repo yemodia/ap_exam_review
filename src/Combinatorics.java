@@ -16,13 +16,14 @@ public class Combinatorics {
 
     /** Precondition: n and r are between 1 and 12, inclusive. * Determines the number of ways r items can be selected
      * from n choices and prints the result, as described in part
-     (b). */
+     (b) */
     public static void numCombinations(int n, int r){
         int possibility = 0;
         if (r > n)
             possibility = 0;
         else
             possibility = factorial(n)/(factorial(r)*factorial(n-r));
+
 
     }
 
